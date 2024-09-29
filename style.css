@@ -1,0 +1,135 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+html,body{
+    height:100%;
+    width:100%;
+}
+#main{
+    height:100%;
+    width:100%;
+    background-color: wheat;
+
+}
+#nav{
+    height: 50px;
+    width:100%;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;  
+    padding: 0px 30px;
+}
+#navi1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#nav h3{
+    font-size: 17px;
+    border: 2px solid black;
+    padding: 3px 10px;
+    border-radius: 50px;
+}
+
+#nav i{
+    font-size: 16px;
+    border: 2px solid black;
+    padding: 3px 8px;
+    border-radius: 50px;
+}
+#nav h1{
+    font-weight: 500;
+    font-size: 22px;
+    text-transform: uppercase;
+    
+}
+
+
+#nav button{
+    padding:7px 12px;
+    border-radius: 50px;
+    border:1.5x solid black;
+    font-weight: 600px
+}
+#btn{
+    color: aliceblue;
+    background-color: orangered;
+    border:orange
+   
+}
+#main>h1{
+    font-size: 150px;
+    text-transform: uppercase;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    width:100%;
+    text-align: center;
+
+}
+img{
+    height:500px;
+    width:400px;
+    object-fit: cover;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    border-radius: 50px;
+
+}
+#im1{
+    transform:translate(-50%,-50%) rotate(-50deg);
+
+}
+#im2{
+    transform:translate(-50%,-50%) rotate(-40deg);
+
+}
+#im3{
+    transform:translate(-50%,-50%) rotate(-30deg);
+
+}
+#im4{
+    transform:translate(-50%,-50%) rotate(-7deg);
+
+}
+#btmleft{
+    position: absolute;
+    bottom:5%;
+    left: 5%;
+    font-size: 17px;
+}
+#right{
+    position:absolute;
+    bottom:4%;
+    right:5%;
+    font-size: 30px;
+}
+#center{
+    position: absolute;
+    bottom: 90%;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    text-align: center;
+
+}
+#middle{
+    border:solid whitesmoke;
+    border-radius: 9px;
+    padding:7px 10px;
+    font-style: normal;
+    font-weight: 900;
+}
+#m2{
+    border:solid whitesmoke;
+    border-radius: 25%;
+    font-weight: 100;
+    padding:7px 10px;
+}
